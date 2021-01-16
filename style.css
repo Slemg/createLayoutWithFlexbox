@@ -1,0 +1,39 @@
+.container {
+    justify-content: space-between;
+}
+.first,.second,.third,.fourth {
+    position: relative;
+    flex-wrap: wrap;
+    width:400px;
+    height:400px;
+    border-radius:5px;
+    display: inline-block;  
+}
+.Captain-America,.Iron-man,.Black-Widow,.Spider-Man {
+    position: absolute;
+    background-color: none;
+    justify-content: space-around;
+    max-height: 182px;
+    max-width:145px;
+}
+.first {
+    background: linear-gradient(#e66465, #9198e5);
+    
+}
+p {
+    font-size:12px;
+}
+h1 {
+    font-size:9px;
+    color:rgba(255, 255,
+    255, 0.5) 
+}
+.second {
+    background:linear-gradient(#e52d27#b31217);
+}
+.third {
+    background:linear-gradient(#000,#61045F)
+}
+.fourth {
+    background: linear-gradient(#e52d27, #000);
+}
