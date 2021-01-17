@@ -1,62 +1,82 @@
 body {
     font-family: 'Work Sans', sans-serif;
 }
-.container {
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-around;
-    
+h1 {
+    font-size:21px;
+    color:white;
+    text-align:right;
+    margin-right: 20px;
 }
-.first,.second,.third,.fourth {
-    position: relative;
+p {
+    font-size:17px;
+    color:rgba(255, 255,255, 0.5);
+    text-align:right;
+    margin-right: 20px;
+}
+.container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+} 
+.first-card {
+    background:linear-gradient(#e66465, #9198e5);
+    position:relative;
     width:400px;
     height:250px;
     border-radius:5px;
     top:50px;
     margin:20px 0; 
-  
-    
-}
-.Captain-America,.Iron-man,.Black-Widow,.Spider-Man {
-    position: absolute;
-    max-height: 300px;
-    max-width:400px;
-}
-.first {
-    background: linear-gradient(#e66465, #9198e5);
 }
 
-.second {
+.second-card {
     background:linear-gradient(#e52d27,#b31217);
+    position:relative;
+    width:400px;
+    height:250px;
+    border-radius:5px;
+    top:50px;
+    margin:20px 0; 
 }
-.third {
-    background:linear-gradient(#000,#61045F)
+.third-card {
+    background:linear-gradient(#000,#61045F);
+    position:relative;
+    width:400px;
+    height:250px;
+    border-radius:5px;
+    top:50px;
+    margin:20px 0; 
 }
-.fourth {
+.fourth-card {
     background:linear-gradient(#e52d27, #000);
+    position:relative;
+    width:400px;
+    height:250px;
+    border-radius:5px;
+    top:50px;
+    margin:20px 0; 
 }
 .Captain-America {
-    top:-45px
+    top:-45px;
+    position:absolute;
+    max-height:300px;
+    max-width:400px;
 }
-.Iron-man {
-    top:-50px
+.Iron-Man {
+    top:-50px;
+    position:absolute;
+    max-height:300px;
+    max-width:400px;
 }
 .Black-Widow {
-    top:-40px
+    top:-40px;
+    position:absolute;
+    max-height:300px;
+    max-width:400px;
 }
 .Spider-Man {
-    top:-1px
+    top:-1px;
+    position:absolute;
+    max-height:300px;
+    max-width:400px;
 }
-h1 {
-    font-size:21px;
-    color:white;
-    text-align: right;
-    margin-right: 25px;
-}
-p {
-    font-size:17px;
-    color:rgba(255, 255,
-    255, 0.5) ;
-    text-align: right;
-    margin-right: 25px;
-}
+
